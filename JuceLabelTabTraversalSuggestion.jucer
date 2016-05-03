@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Gijm9M" name="JuceLabelTabTraversalSuggestion" projectType="guiapp"
+              version="1.0.0" bundleIdentifier="com.willrice.JuceLabelTabTraversalSuggestion"
+              includeBinaryInAppConfig="1" jucerVersion="4.2.1">
+  <MAINGROUP id="pPd7ij" name="JuceLabelTabTraversalSuggestion">
+    <GROUP id="{B2214817-0298-E498-1559-6593D5FAFFF5}" name="Source">
+      <FILE id="PxizsG" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="AS9DYk" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="JRNMZd" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="LabelTraversalTest"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="LabelTraversalTest"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../SDKs/juce/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
